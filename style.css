@@ -29,6 +29,11 @@ header a {
     display: inline-block;
 }
 
+header a:hover {
+    background-color: #f8dac5;
+    color: white;
+}
+
 nav {
     background-color: #FFFAF4;
     text-align: center;
@@ -162,11 +167,21 @@ h1{
     float: right; 
     padding-left: 350px;
     font-size: 200%;
-    line-height: 1.5em;
+    line-height: 1em;
     position: absolute;
-    top: 420px;
+    top: 460px;
 }
 
+.p14 {
+    color: #6B6C6E;
+    margin: 0px 30px;
+    float: right; 
+    padding-left: 350px;
+    font-size: 170%;
+    font-style: italic;
+    position: absolute;
+    top: 400px;
+}
 
 
 .img1 img{
@@ -215,6 +230,7 @@ h1{
     border-style:double;
     border-color: #A79277;
 }
+
 
 /*時間線*/
 .timeline {
@@ -310,12 +326,13 @@ iframe{
 .p6 {
     position: absolute; 
     color: black;
-    font-size: 150%;
-    margin: 150px 50px;
+    font-size: 180%;
+    margin: 100px 50px;
     float: left;
     border-style: dashed;
     border-color: #A79277;
     left: 750px; 
+    line-height: 1.2em;
 }
 
 
@@ -342,10 +359,11 @@ iframe{
     position: absolute; 
     float: left;
     color: black;
-    margin: 550px 100px;
-    font-size: 150%;
+    margin: 550px 20px;
+    font-size: 180%;
     border-style:dashed;
-    border-color: #A79277
+    border-color: #A79277;
+    line-height: 1.2em;
 }
 
 .p9{
@@ -370,7 +388,7 @@ iframe{
     width: 500px;
     height: 290px;
     position: relative;
-    margin: 0px 350px 0px; 
+    margin: 0px 450px 0px; 
 }
 .coverflow>a{
     display: block;
@@ -453,7 +471,7 @@ iframe{
     font-size: 230%;
     margin: 50px 10px;
     border-radius: 10px;
-    width: 70px;
+    width: 145px;
     height: 35px;
     background-color: #A79277;
 }
@@ -481,3 +499,5 @@ footer {
     color: #A79277;
     font-size: 150%;
 }
+
+
