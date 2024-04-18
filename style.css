@@ -45,6 +45,7 @@ nav {
     
 }
 
+
 .column1 {
     padding: 20px;
     margin: 0px 80px;
@@ -161,6 +162,8 @@ h1{
     position: absolute; 
 }
 
+
+
 .p2 {
     color: #743A3A;
     margin: 0px 30px;
@@ -193,6 +196,11 @@ h1{
     float:left; 
     border-style:dashed;
     border-color: #A79277
+}
+
+.img1 img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /*icon*/
@@ -355,6 +363,7 @@ iframe{
     margin: 400px -150px ;
 }
 
+
 .p8{
     position: absolute; 
     float: left;
@@ -499,5 +508,3 @@ footer {
     color: #A79277;
     font-size: 150%;
 }
-
-
